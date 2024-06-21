@@ -1,0 +1,57 @@
+Daniyal Umer Haral  
+House # 57, Nargis Block , Bahria Town , Lahore  
++92 (3 00) 4352760  | daniyalharal100 @gmail.com | www.linkedin.com/in/ daniyal -umer -haral  
+EDUCATION  
+Ghulam Ishaq Khan Institute  KPK, Pakistan  
+Bachelor of Science in Artificial Intelligence  September 2020 - June 2024  
+• GPA:  3.1 / 4.0 
+ 
+DeepLearning.AI TensorFlow Developer Professional                                    September  2023 
+ 
+WORK & LEADERSHIP EXPERIENCE  
+Dutch Doc Accessibility: AI -powered Q&A for the Disabled  – Freelance Project   January 2024 – May 2024  
+• Developed  an initiative for disabled individuals  using Python , integrating OCR -based text extraction, language detection, 
+advanced statistical analysis , and visualizations . 
+• Applied preprocessing and implemented  GPT API for spell  correction, reducing bad misspelled words by 80%.  
+• Deployed state -of-the-art Transformers for language translation, summarization, and question answering on Dutch legal 
+documents  using Lang Chain and Large Language Model (Bert)  alongside Text -to-Speech and Speech Recognition 
+models, enabling independent information retrieval for all users.  
+Software Development  Intern – Techlogix  June 2023 – August 2023  
+• Spearheaded the implementation of ASP.NET Core expertise, emphasizing clean architecture and MVC patterns to 
+develop highly maintainable codebases that reduced bug fixes by 40% . 
+• Engineered seamless RESTful API designs and optimized database management, to handle over 1000 concurrent users . 
+• Deployed on Azure  and adeptly in corporated  advanced chatbot feature s with pretrained models into web application,  
+resulting in a significant 30% decrease in customer complaints, elevating user satisfaction.  
+Data Science Intern – Systems Ltd  July 2022 – September 2022  
+• Acquired  Data Warehousing, SSIS, ETL techniques, and SQL skills . Created a pipeline to process 10,000 sales records.  
+• Harnessed  Tableau to craft comprehensive dashboards, graphs, and maps, facilitating data -driven decision -making and 
+saving 50 hours monthly in report generation.  
+• Implemented machine learning algorithms and conducted exploratory data analysis, delivering a predictive model with 
+90% accuracy . 
+ACADEMIC PROJECTS  
+Vehicle Categorization and Passenger Counting – Final Year Project          
+• Trained and fine -tuned YOLO model on a dataset of 10,000 images, achieving 80% mAP for identifying 7 Pakistani 
+vehicle classes. Annotated 600 images for passenger counting, with YOLO reaching a 65% mAP. Integrated solution 
+with HIKVISION CCTV system.  
+• Created  a responsive web app using React and Django, featuring an interactive dashboard for real -time monitoring of 
+vehicle and p assenger  influx. RTSP for seamless CCTV connection . 
+ResearchifyBot – Individual Project                                                                                                                                            
+• Crafted  a RAG chatbot utilizing Python, Lang Chain and L lama  Index with OpenAI's GPT -3.5 turbo model, facilitating 
+research paper question answering and summarization.  A time -saving tool for researchers, facilitating efficient analysis  
+• Leveraged  Streamlit for UI development, featuring conversational history tracking  
+Dino Game with Custom N EAT  Algorithm – Group Project                                                                                                                                            
+• Constructed  Python Dino Game with custom NEAT Algorithm, including feed -forward neural network and genetic 
+algorithm for weight optimization  coded from scratch , achieving game mastery by the dino in 60 generations, as part of a 
+deep learning project using Pygame.  
+Exploratory Data Analysis  
+• Datasets Analyzed: CIFAR -10, Pak -Wheels, Play Tennis, Breast Cancer, Titanic, Iris, Corn or Maize Leaf, Airbus 
+Aircraft Detection, Movie Reviews, Twitter Tweets, UNSW NB15 , Insurance, Balance Scale . 
+Algorithms Implemented From Scratch  
+• AI Algorithms: Linear Regression, Logistic Regression, Decision Trees, K -mean Clustering, SVM, ANN, CNN, RCNN, 
+GAN, LSTM, Transformers, Sort Algorithm: Bubble Sort, Insertion Sort, Merge Sort, Quick Sort Search Algorithms: 
+Breath First, Depth First, A -star Other: Huffman Encoding, Minimax . 
+ 
+SKILLS & INTERESTS  
+Technical Skills:  Python  | JavaScript  | HTML | CSS | SQL | ASP.Net Core | C# | C++ |  Git | Linux | AWS | Docker | RESTful 
+APIs | Machine learning | Deep learning | NLP | CV | RL | Web D evelopment  | Mobile A pp Development  | DW | SSIS | ETL   
+Interests:  Tennis | Football  | Swimming | Chess  
