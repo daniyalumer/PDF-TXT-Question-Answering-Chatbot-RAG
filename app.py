@@ -31,7 +31,7 @@ def construct_index(directory_path, api_key):
     return index
 
 # Streamlit app
-st.title("Research Paper Question Answering Application")
+st.title("PDF/TXT Question Answering Application")
 
 # Initialize session state for API key and index
 if "api_key" not in st.session_state:
