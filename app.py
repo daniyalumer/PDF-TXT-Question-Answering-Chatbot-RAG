@@ -51,23 +51,6 @@ if st.session_state.api_key:
     if st.session_state.index is None:
         st.session_state.index = construct_index("data", st.session_state.api_key)
 
-    # Initialize chat history
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
-
-    # Display chat messages from history on app rerun
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
-
-    # Read content from prompt_chat.txt
-    prompt_chat_file_path = "prompt_chat2.txt"
-    if os.path.exists(prompt_chat_file_path):
-        with open(prompt_chat_file_path, "r", encoding="utf-8") as file:
-            predefined_prompt = file.read()
-    else:
-        predefined_prompt = "Default prompt if prompt_chat2.txt is not found."
-
     # File Upload Section
     st.header("Upload a Text or PDF File")
     uploaded_file = st.file_uploader("Choose a file", type=["txt", "pdf"])
@@ -96,6 +79,23 @@ if st.session_state.api_key:
         # Display a message about the uploaded file
         with open(text_file_path, "r", encoding="utf-8") as file:
             st.info(f"Uploaded file content")
+
+    # Initialize chat history
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    # Read content from prompt_chat.txt
+    prompt_chat_file_path = "prompt_chat2.txt"
+    if os.path.exists(prompt_chat_file_path):
+        with open(prompt_chat_file_path, "r", encoding="utf-8") as file:
+            predefined_prompt = file.read()
+    else:
+        predefined_prompt = "Default prompt if prompt_chat2.txt is not found."
 
     # User Input Section
     prompt = st.text_input("You:")
