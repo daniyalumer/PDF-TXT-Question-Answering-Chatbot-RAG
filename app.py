@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain import OpenAI
+from langchain.chat_models import ChatOpenAI
 from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredictor, PromptHelper, ServiceContext
 import os
 import PyPDF2  # PyPDF2 for PDF text extraction
@@ -21,7 +21,7 @@ def construct_index(directory_path, api_key):
     chunk_size_limit = 600
 
     prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
-    llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.1, model_name="gpt-3.5-turbo", max_tokens=num_outputs, api_key=api_key))
+    llm_predictor = LLMPredictor(llm=ChatOpenAI(temperature=0.1, model_name="gpt-3.5-turbo", max_tokens=num_outputs, openai_api_key=api_key))
 
     documents = SimpleDirectoryReader(directory_path).load_data()
     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
@@ -67,9 +67,6 @@ if st.session_state.api_key:
             predefined_prompt = file.read()
     else:
         predefined_prompt = "Default prompt if prompt_chat2.txt is not found."
-
-    # Display the predefined prompt
-    # st.info(f"Predefined Prompt:\n\n{predefined_prompt}")
 
     # File Upload Section
     st.header("Upload a Text or PDF File")
